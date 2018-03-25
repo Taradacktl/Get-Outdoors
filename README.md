@@ -1,5 +1,5 @@
 # Get-Outdoors
-This application uses api data provided by The National Park Service (https://www.nps.gov/index.htm) and Dark Sky Weather (https://darksky.net) to find National Parks within your state and weather in your area to help you plan outdoor activities. A brief description and images are provided with each National Park. Get Outdoors!
+This application uses api data provided by The National Park Service (https://www.nps.gov/index.htm) and Dark Sky Weather (https://darksky.net) to find National Parks within your state and the weather forecast in your area to help you plan outdoor activities. A brief description and images are provided with each National Park. Get Outdoors!
 
 https://taradacktl.github.io/Get-Outdoors/
 
