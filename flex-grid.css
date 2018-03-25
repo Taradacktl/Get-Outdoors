@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.weatherForecastContainer {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /*center children horizontally*/
+  justify-content: center;
+  
+}
+
+.weatherInnerBox {
+ flex:1;
+ border-radius: 1em;
+ text-align: center;
+
+}
+.weatherDayColumn {
+    padding:.5em;
+    display:flex;
+    flex-basis:19%;
+    flex-shrink:0;
+    flex-grow:0;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .weatherDayColumn {
+        flex-basis:32%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .weatherDayColumn {
+        flex-basis:48%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .weatherForecastContainer {
+        flex-direction:column;
+    }
+    .weatherDayColumn {
+        flex-basis:auto;
+    }
+    .weatherDayColumn {
+        height:auto;
+        text-align: justify
+    }
+    
+    #search-button {
+      margin-top: 20px;
+    }
+    .parkNames {
+      margin-top: 50px;
+    }
+    
+}
