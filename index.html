@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Get Outdoors</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Archivo+Black|Tangerine:700|Cabin+Sketch" rel="stylesheet">
+    <link rel="stylesheet" href="./flex-grid.css" />
+  </head>
+  <body>
+    <div class="topmostWrapper">
+    <header role="banner">
+      <div class="title">
+        <h1>Get Outdoors</h1>
+        <h2>Your next adventure awaits</h2>
+      </div>
+    </header>
+  <main role="main" aria-live="assertive">
+    <div class="mainContainer">
+      <div class="search-wrapper">
+    <form aria-label="search-city" id="search-form">
+      <label for="city-search"></label>
+        <input type="text" id="city-search" placeholder="e.g. Mammoth Lakes, CA"/>
+          <button id="form-reset" class="close-icon" type="reset"></button>
+          <button type="submit" id="search-button">Submit</button>
+        <h3 class="instructions">Select your city or state</h3>
+    </form>
+    </div>
+      <div class="resultTitles">Weather Forecast</div>
+        <div id="weatherStats"></div>
+      <div class="resultTitles">National Parks in your state</div>
+        <div id="results"></div>
+    </div>
+   <div class="quote">
+     <h1>“Of all the paths you take in life, make sure a few of them are dirt.” -John Muir</h1>
+   </div>      
+ </main>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiRNwf8WgICxkJExjBvQQuqVJ-RSS1hXA&libraries=places,geometry"></script>
+    <script type="text/javascript" src="skycons.js"></script>
+    <script src="index.js"></script>
+    </div>
+</body>
+</html>
