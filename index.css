@@ -2,6 +2,7 @@ body {
   background : url('https://www.nationalparks.org/sites/default/files/yosemite-merced.jpg');
   background-repeat:no-repeat;
   background-size:cover;
+  background-attachment: fixed;
   text-align: center;
   font-family: 'Cabin Sketch', cursive;
   display: middle;
